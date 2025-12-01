@@ -6,7 +6,13 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1d1d1d;
 }
+
 
 @font-face {
     font-family: 'Anton';
@@ -28,7 +34,11 @@ body {
     src: url(./font/Gotham-Light.otf);
 }
 
-
+.page-wrapper {
+    max-width: 670px;
+    width: 100%;
+    background-color: #292929;
+}
 
 header {
     background-color: #292929;
