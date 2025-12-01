@@ -50,7 +50,7 @@ header .img-cyrcle .forimg {
     height: 100px;
     overflow: hidden;
     border-radius: 50%;
-    background-color: rgba(2, 72, 2, 0.241);
+    background-color: rgb(76, 76, 76);
 }
 
 header .img-cyrcle .forimg img {
@@ -112,7 +112,7 @@ header .name-prof .profesion h1 span {
 
 .section-width {
     width: 38%;
-    border-right: 1px solid white;
+    border-right: 1px solid rgba(255, 255, 255, 0.55);
     padding: 20px 40px 35px 40px;
 }
 
@@ -123,7 +123,6 @@ header .name-prof .profesion h1 span {
 
 .section-info {
     background-color: #292929;
-    /* padding: 20px 25px 35px 40px; */
     display: flex;
     position: relative;
     overflow: hidden;
@@ -304,9 +303,6 @@ header .name-prof .profesion h1 span {
     content: calc(var(--value)) "%";
     position: absolute;
 }
-
-
-.about .work {}
 
 .timeline {
     /* <<<<< აქ გამოვიყენე AI */
